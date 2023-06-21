@@ -11,4 +11,5 @@ export function foo () {
 export const prom1 = new Promise();
 export const prom2 = new Promise();
 export const prom3 = new Promise();
+export const prom4 = new Promise();
 
