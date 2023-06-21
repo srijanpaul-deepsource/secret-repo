@@ -8,3 +8,5 @@ export function foo () {
   })
 }
 
+export const prom1 = new Promise();
+
