@@ -1,17 +1,9 @@
-export default new Map()
+import broken from './broken'
 
-// doc
-export function foo () {
-  return new Promise((resolve, reject) => {
-    if (reject) return resolve(123)
-    return resolve(456)
-  })
-}
+export const br = broken
+export default new Promise()
 
-export const prom1 = new Promise();
-export const prom2 = new Promise();
-export const prom3 = new Promise();
-export const prom4 = new Promise();
-export const prom5 = new Promise();
-export const prom6 = new Promise();
+
+// eslint-disable-next-line no-new
+new Map();
 
