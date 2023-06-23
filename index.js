@@ -1,7 +1,7 @@
-import broken from './broken'
+import value, { func } from 'lib'
+export const foo = value && false
 
-export const br = broken
-export default new Promise()
+const result = func(1, 2, undefined);
 
-new Map();
+export const exp = result && result.method();
 
